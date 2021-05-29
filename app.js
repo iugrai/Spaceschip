@@ -13,8 +13,8 @@ const spaceShip = {
   // Metódusok:
   // 1. Utasok listája:
   listPassengers: function () {
-    for (let i = 0; i < this.passengers.lenght; i++) {
-      console.log('Passenger:' + this.passengers[i]);
+    for (let i = 0; i < this.passengers.length; i++) {
+      console.log('Passenger' + (i + 1) + ':' + this.passengers[i]);
     }
   },
   // 2. Új utas
